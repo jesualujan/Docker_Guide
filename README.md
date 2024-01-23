@@ -65,6 +65,7 @@ En otra terminal vamos a hacer docker pull de ubuntu hacemos el mismo proceso la
     para salir podemos escribir: exit  
     o bien presionar CTRL + D
     docker stop id -> detiene la ejecución de un contenedor
+    
 ## Authors
 
 - [jesua luján](https://github.com/jesualujan/jesualujan)
