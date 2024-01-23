@@ -1,18 +1,19 @@
 
 ## 🌐 Redes Sociales | Elaborado por: Jesua Luján
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100093507976508&mibextid=gik2fB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/jesua-hadai-alderete-luján-a2325a121) 
-# INTRODUCCIÓN A ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+# Introducción a ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-#Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
-La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo, facilitando así también los despliegues.
-
-
+# Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
+# La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo,
+# facilitando así también los despliegues.
 
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
 
     1) DOCKER FILES
     2) DOCKER IMAGES
     3) DOCKER CONTAINERS
+    
+![image](https://github.com/jesualujan/Docker_Guide/assets/56859580/6a73e86b-c4a0-4280-a1e2-f0faf91aad44)
 
 
 La idea de docker es como trabajar una maquina virtual y si, es parecido a una maquina virtual, pero no lo es, la idea es tener un espacio de trabajo, configurado con tecnologías que se desean ocupar en un contenedor, como pueden ser React, Vite, Angular, Express, GraphQL,MongoDB, Etc...
