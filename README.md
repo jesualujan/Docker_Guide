@@ -1,4 +1,6 @@
-
+Elaborado por: Jesua Luján.
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100093507976508&mibextid=gik2fB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/jesua-hadai-alderete-luján-a2325a121) 
 # INTRODUCCIÓN A DOCKER 
 
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
