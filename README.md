@@ -8,19 +8,22 @@
 # facilitando así también los despliegues.
 
 # Como instalar docker:
-table>
+ <table>
+        <thead>
+        <tr>
+        <th>SISTEMA OPERATIVO</th>
+        <th>SIGNFICADO</th>
+        <th>SINTAXIS</th>
+        </tr>
         <tbody>
-            <td>
-                Para Windows 
-            </td>
-            <td>
-                Para Linux
-            </td>
-            <td>
-                Para Mac 
-            </td>
+            <tr>
+            <td>Para Windows</td>
+            <tr>
+                <td>Para Linux</td>
+                <tr>
+                    <td>Para Mac</td>
         </tbody>
-
+    </table>
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
 
     1) DOCKER FILES
