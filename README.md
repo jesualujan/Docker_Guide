@@ -90,49 +90,124 @@ En otra terminal vamos a hacer docker pull de ubuntu hacemos el mismo proceso la
     docker stop id -> detiene la ejecución de un contenedor
 
 <h3>Lista de comandos para volverte experto en Docker</h3>
-<p> 2. Registro de Docker y Repositorio  </p>
+<table>
+ <tbody>
+  <p> 2. Registro de Docker y Repositorio </p>
     <table>
         <thead>
             <tr>
-                <th>Comando</th>
-                <th>SIGNFICADO</th>
-                <th>SINTAXIS</th>
+                <th>Command</th>
+                <th>Meaning</th>
+                <th>Syntax</th>
             </tr>
         <tbody>
             <tr>
                 <td>Login to a Registry</td>
-                <td><p>This command helps you log in to your Registry.</p></td>
-                <td><p>docker login
-                    docker login localhost:8080</p></td>
+                <td>
+                    <p>This command helps you log in to your Registry.</p>
+                </td>
+                <td>
+                    <p>docker login
+                        docker login localhost:8080</p>
+                </td>
             <tr>
                 <td>Logout from a registry:</td>
-                <td><p>This command helps you log out from your Registry.</p></td>
-                <td><p>docker logout
-                    docker logout localhost:8080</p></td>
+                <td>
+                    <p>This command helps you log out from your Registry.</p>
+                </td>
+                <td>
+                    <p>docker logout
+                        docker logout localhost:8080</p>
+                </td>
             <tr>
                 <td>Searching an image</td>
-                <td><p>By using this docker command you can search any image from your docker.</p></td>
-                <td><p>search nginx
-                    docker search --filter stars=3 --no-trunc nginx</p></td>
-                    <tr>
-                        <td>Pulling an Image</td>
-                        <td><p>This command can be used to download a specific image or set of images.</p></td>
-                        <td><p>docker image pull nginx
-                            docker image pull eon01/nginx localhost:5000/myadmin/nginx</p></td>
-                            <tr>
-                                <td>Pushing an image</td>
-                                <td><p>This command can be used to push a specific image or set of images.</p></td>
-                                <td><p>docker image push eon01/nginx
-                                    docker image push eon01/nginx localhost:5000/myadmin/nginx</p></td>
+                <td>
+                    <p>By using this docker command you can search any image from your docker.</p>
+                </td>
+                <td>
+                    <p>search nginx
+                        docker search --filter stars=3 --no-trunc nginx</p>
+                </td>
+            <tr>
+                <td>Pulling an Image</td>
+                <td>
+                    <p>This command can be used to download a specific image or set of images.</p>
+                </td>
+                <td>
+                    <p>docker image pull nginx
+                        docker image pull eon01/nginx localhost:5000/myadmin/nginx</p>
+                </td>
+            <tr>
+                <td>Pushing an image</td>
+                <td>
+                    <p>This command can be used to push a specific image or set of images.</p>
+                </td>
+                <td>
+                    <p>docker image push eon01/nginx
+                        docker image push eon01/nginx localhost:5000/myadmin/nginx</p>
+                </td>
         </tbody>
     </table>
-    <p> 4. comandos para arrancar/iniciar o detener un contenedor </p>
+
+    <p> 3. Correr Contenedores </p>
     <table>
         <thead>
             <tr>
-                <th>COMANDO</th>
-                <th>SIGNFICADO</th>
-                <th>SINTAXIS</th>
+                <th>Command</th>
+                <th>Meaning</th>
+                <th>Syntax</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Command to create a container</td>
+                <td>
+                    <p>This command is used to create a container without running</p>
+                </td>
+                <td>
+                    <p>docker container create -t -i eon01/infinite --name XYZ</p>
+                </td>
+            <tr>
+                <td>Command to run a container </td>
+                <td>
+                    <p>This command is used to run a container</p>
+                </td>
+                <td>
+                    <p>docker container run -it --name XYZ -d eon01/infinite</p>
+                </td>
+            <tr>
+                <td>Command to rename a container</td>
+                <td>
+                    <p>Use this command to rename a container</p>
+                </td>
+                <td>
+                    <p>docker container rename XYZ infinity</p>
+                </td>
+            <tr>
+                <td>Command for removing a container</td>
+                <td>
+                    <p>This command is used to remove container in the topic.</p>
+                </td>
+                <td>
+                    <p>docker container rm infinite</p>
+                </td>
+            <tr>
+                <td>Update a container</td>
+                <td>
+                    <p>This command is used to update container in the topic</p>
+                </td>
+                <td>
+                    <p>docker container update --cpu-shares 512 -m 300M infinite</p>
+                </td>
+        </tbody>
+    </table>
+
+    <p> 4. Comandos para arrancar/iniciar o detener un contenedor </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Meaning</th>
+                <th>Syntax</th>
             </tr>
         <tbody>
             <tr>
@@ -209,6 +284,7 @@ En otra terminal vamos a hacer docker pull de ubuntu hacemos el mismo proceso la
                                 </td>
         </tbody>
     </table>
+</body>
     
 ## Authors
 
