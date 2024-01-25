@@ -89,8 +89,8 @@ En otra terminal vamos a hacer docker pull de ubuntu hacemos el mismo proceso la
     o bien presionar CTRL + D
     docker stop id -> detiene la ejecución de un contenedor
 
-<h3>Lista de comandos para volverte experto en Docker</h3>
-<p> 2. Registro de Docker y Repositorio </p>
+<h3>Lista de comandos para volverte experto en Docker</h3
+    <p> 2. Registro de Docker y Repositorio </p>
     <table>
         <thead>
             <tr>
@@ -135,7 +135,153 @@ En otra terminal vamos a hacer docker pull de ubuntu hacemos el mismo proceso la
                     <p>docker image pull nginx
                         docker image pull eon01/nginx localhost:5000/myadmin/nginx</p>
                 </td>
-            
+            <tr>
+                <td>Pushing an image</td>
+                <td>
+                    <p>This command can be used to push a specific image or set of images.</p>
+                </td>
+                <td>
+                    <p>docker image push eon01/nginx
+                        docker image push eon01/nginx localhost:5000/myadmin/nginx</p>
+                </td>
+        </tbody>
+    </table>
+
+   <p> 3. Correr Contenedores </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Meaning</th>
+                <th>Syntax</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Command to create a container</td>
+                <td>
+                    <p>This command is used to create a container without running</p>
+                </td>
+                <td>
+                    <p>docker container create -t -i eon01/infinite --name XYZ</p>
+                </td>
+            <tr>
+                <td>Command to run a container </td>
+                <td>
+                    <p>This command is used to run a container</p>
+                </td>
+                <td>
+                    <p>docker container run -it --name XYZ -d eon01/infinite</p>
+                </td>
+            <tr>
+                <td>Command to rename a container</td>
+                <td>
+                    <p>Use this command to rename a container</p>
+                </td>
+                <td>
+                    <p>docker container rename XYZ infinity</p>
+                </td>
+            <tr>
+                <td>Command for removing a container</td>
+                <td>
+                    <p>This command is used to remove container in the topic.</p>
+                </td>
+                <td>
+                    <p>docker container rm infinite</p>
+                </td>
+            <tr>
+                <td>Update a container</td>
+                <td>
+                    <p>This command is used to update container in the topic</p>
+                </td>
+                <td>
+                    <p>docker container update --cpu-shares 512 -m 300M infinite</p>
+                </td>
+        </tbody>
+    </table>
+
+  <p> 4. Comandos para arrancar/iniciar o detener un contenedor </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Meaning</th>
+                <th>Syntax</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Command for starting a container</td>
+                <td>
+                    <p>This command is used for starting a container </p>
+                </td>
+                <td>
+                    <p>docker container start nginx</p>
+                </td>
+            <tr>
+                <td>Command for stopping a container</td>
+                <td>
+                    <p>This command is used for stopping a container</p>
+                </td>
+                <td>
+                    <p>docker container stop nginx</p>
+                </td>
+            <tr>
+                <td>Command for restarting the container</td>
+                <td>
+                    <p>This command is used for restarting a container</p>
+                </td>
+                <td>
+                    <p>docker container restart nginx</p>
+                </td>
+            <tr>
+                <td>Command for pausing the container</td>
+                <td>
+                    <p>This command is used for pausing a container</p>
+                </td>
+                <td>
+                    <p>docker container pause nginx</p>
+                </td>
+            <tr>
+                <td>Command for unpausing the container</td>
+                <td>
+                    <p>This command is used for unpausing a container in the docker </p>
+                </td>
+                <td>
+                    <p>docker container unpause nginx</p>
+                </td>
+                <tr>
+                    <td>Command for Blocking a container</td>
+                    <td>
+                        <p>This command is used for blocking a container in the docker  </p>
+                    </td>
+                    <td>
+                        <p>docker container wait nginx</p>
+                    </td>
+                    <tr>
+                        <td>Sending a SIGKILL</td>
+                        <td>
+                            <p>This command is used for Sending a SIGKILL in the docker </p>
+                        </td>
+                        <td>
+                            <p>docker container kill nginx</p>
+                        </td>
+                        <tr>
+                            <td>Command for sending another signal</td>
+                            <td>
+                                <p>This command is used for for sending another signal</p>
+                            </td>
+                            <td>
+                                <p>docker container kill -s HUP nginx</p>
+                            </td>
+                            <tr>
+                                <td>Command for Connecting to an Existing Container</td>
+                                <td>
+                                    <p>We can use this command for Command for Connecting to an Existing Container</p>
+                                </td>
+                                <td>
+                                    <p>docker container attach nginx</p>
+                                </td>
+        </tbody>
+    </table>
     
 ## Authors
 
