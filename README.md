@@ -16,6 +16,7 @@ La idea detrás de Docker es crear contenedores ligeros y portables para las apl
  
 # PRIMEROS PASOS
  * Primero debemos descargar e instalar docker en nuestros sistemas operativos, si estamos en windows debemos actualizar nuestra versión de WSL (subsistemas de linux para windows)
+ * <a href="https://learn.microsoft.com/en-us/windows/wsl/install"> Actualizar WSL </a>
 <table>
         <thead>
             <tr>
