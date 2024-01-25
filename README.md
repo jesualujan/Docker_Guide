@@ -7,6 +7,14 @@
  <h2> 🐳 Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
 La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo,
  facilitando así también los despliegues. </h2>
+
+ DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
+
+    1) DOCKER FILES
+    2) DOCKER IMAGES
+    3) DOCKER CONTAINERS
+    
+![image](https://github.com/jesualujan/Docker_Guide/assets/56859580/6a73e86b-c4a0-4280-a1e2-f0faf91aad44)
  
 <H3>Como Instalar docker:</H3>
 <table>
@@ -68,15 +76,89 @@ La idea detrás de Docker es crear contenedores ligeros y portables para las apl
                                     docker image push eon01/nginx localhost:5000/myadmin/nginx</p></td>
         </tbody>
     </table>
-    
-DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
-
-    1) DOCKER FILES
-    2) DOCKER IMAGES
-    3) DOCKER CONTAINERS
-    
-![image](https://github.com/jesualujan/Docker_Guide/assets/56859580/6a73e86b-c4a0-4280-a1e2-f0faf91aad44)
-
+    <p> 4. comandos para arrancar/iniciar o detener un contenedor </p>
+    <table>
+        <thead>
+            <tr>
+                <th>COMANDO</th>
+                <th>SIGNFICADO</th>
+                <th>SINTAXIS</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Command for starting a container</td>
+                <td>
+                    <p>This command is used for starting a container </p>
+                </td>
+                <td>
+                    <p>docker container start nginx</p>
+                </td>
+            <tr>
+                <td>Command for stopping a container</td>
+                <td>
+                    <p>This command is used for stopping a container</p>
+                </td>
+                <td>
+                    <p>docker container stop nginx</p>
+                </td>
+            <tr>
+                <td>Command for restarting the container</td>
+                <td>
+                    <p>This command is used for restarting a container</p>
+                </td>
+                <td>
+                    <p>docker container restart nginx</p>
+                </td>
+            <tr>
+                <td>Command for pausing the container</td>
+                <td>
+                    <p>This command is used for pausing a container</p>
+                </td>
+                <td>
+                    <p>docker container pause nginx</p>
+                </td>
+            <tr>
+                <td>Command for unpausing the container</td>
+                <td>
+                    <p>This command is used for unpausing a container in the docker </p>
+                </td>
+                <td>
+                    <p>docker container unpause nginx</p>
+                </td>
+                <tr>
+                    <td>Command for Blocking a container</td>
+                    <td>
+                        <p>This command is used for blocking a container in the docker  </p>
+                    </td>
+                    <td>
+                        <p>docker container wait nginx</p>
+                    </td>
+                    <tr>
+                        <td>Sending a SIGKILL</td>
+                        <td>
+                            <p>This command is used for Sending a SIGKILL in the docker </p>
+                        </td>
+                        <td>
+                            <p>docker container kill nginx</p>
+                        </td>
+                        <tr>
+                            <td>Command for sending another signal</td>
+                            <td>
+                                <p>This command is used for for sending another signal</p>
+                            </td>
+                            <td>
+                                <p>docker container kill -s HUP nginx</p>
+                            </td>
+                            <tr>
+                                <td>Command for Connecting to an Existing Container</td>
+                                <td>
+                                    <p>We can use this command for Command for Connecting to an Existing Container</p>
+                                </td>
+                                <td>
+                                    <p>docker container attach nginx</p>
+                                </td>
+        </tbody>
+    </table>
 
 La idea de docker es como trabajar una maquina virtual y si, es parecido a una maquina virtual, pero no lo es, la idea es tener un espacio de trabajo, configurado con tecnologías que se desean ocupar en un contenedor, como pueden ser React, Vite, Angular, Express, GraphQL,MongoDB, Etc...
 
