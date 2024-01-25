@@ -7,21 +7,25 @@
 # La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo,
 # facilitando así también los despliegues.
 
-# Como instalar docker:
- <table>
+# Como Instalar docker:
+<table>
         <thead>
-        <tr>
-        <th>SISTEMA OPERATIVO</th>
-        <th>SIGNFICADO</th>
-        <th>SINTAXIS</th>
-        </tr>
+            <tr>
+                <th>SISTEMA OPERATIVO</th>
+                <th>SIGNFICADO</th>
+                <th>SINTAXIS</th>
+            </tr>
         <tbody>
             <tr>
-            <td>Para Windows</td>
+                <td>Para Windows</td>
+                <td><p>https://download.docker.com/win/stable/InstallDocker.msi</p></td>
             <tr>
                 <td>Para Linux</td>
-                <tr>
-                    <td>Para Mac</td>
+                <td><p>curl -sSL https://get.docker.com/ | sh</p></td>
+            <tr>
+                <td>Para Mac</td>
+                <td><p>este comando te ayudará a instalar docker en Mac</p></td>
+                <td><p>https://download.docker.com/mac/stable/Docker.dmg</p></td>
         </tbody>
     </table>
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
