@@ -3,8 +3,8 @@
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-<h1> Docker en Español </h1> 
- <h2 > Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
+<h1> Aprendiendo Docker 👨‍🎓 </h1> 
+ <h2> 🐳 Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
 La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo,
  facilitando así también los despliegues. </h2>
  
