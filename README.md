@@ -8,10 +8,18 @@
 # facilitando así también los despliegues.
 
 # Como instalar docker:
- Command	Meaning	Syntax
-For Windows	This command helps you to install Docker on windows.	https://download.docker.com/win/stable/InstallDocker.msi
-For Linux	This command helps you to install Docker on Linux.	curl -sSL https://get.docker.com/ | sh
-For mac	This command helps you to install Docker on mac os.	https://download.docker.com/mac/stable/Docker.dmg
+table>
+        <tbody>
+            <td>
+                Para Windows 
+            </td>
+            <td>
+                Para Linux
+            </td>
+            <td>
+                Para Mac 
+            </td>
+        </tbody>
 
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
 
