@@ -7,7 +7,7 @@ La idea detrás de Docker es crear contenedores ligeros y portables para las apl
  facilitando así también los despliegues. </h2>
 
 
- $ ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) SE COMPONE EN 3 PARTES PRINCIPALES:
+  ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) # SE COMPONE EN 3 PARTES PRINCIPALES:
 
     1) DOCKER FILES
     2) DOCKER IMAGES
