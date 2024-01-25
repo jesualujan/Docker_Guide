@@ -1,4 +1,4 @@
-#🌐 Redes Sociales: [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100093507976508&mibextid=gik2fB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesua-hadai-alderete-luj%C3%A1n-a2325a121/) 
+# 🌐 Redes Sociales: [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100093507976508&mibextid=gik2fB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesua-hadai-alderete-luj%C3%A1n-a2325a121/) 
 <h6>Elaborado por: Jesua Luján</h6> 
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -31,6 +31,44 @@ La idea detrás de Docker es crear contenedores ligeros y portables para las apl
                 <td><p>https://download.docker.com/mac/stable/Docker.dmg</p></td>
         </tbody>
     </table>
+
+ <p> 2. Registro de Docker y Repositorio  </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Comando</th>
+                <th>SIGNFICADO</th>
+                <th>SINTAXIS</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Login to a Registry</td>
+                <td><p>This command helps you log in to your Registry.</p></td>
+                <td><p>docker login
+                    docker login localhost:8080</p></td>
+            <tr>
+                <td>Logout from a registry:</td>
+                <td><p>This command helps you log out from your Registry.</p></td>
+                <td><p>docker logout
+                    docker logout localhost:8080</p></td>
+            <tr>
+                <td>Searching an image</td>
+                <td><p>By using this docker command you can search any image from your docker.</p></td>
+                <td><p>search nginx
+                    docker search --filter stars=3 --no-trunc nginx</p></td>
+                    <tr>
+                        <td>Pulling an Image</td>
+                        <td><p>This command can be used to download a specific image or set of images.</p></td>
+                        <td><p>docker image pull nginx
+                            docker image pull eon01/nginx localhost:5000/myadmin/nginx</p></td>
+                            <tr>
+                                <td>Pushing an image</td>
+                                <td><p>This command can be used to push a specific image or set of images.</p></td>
+                                <td><p>docker image push eon01/nginx
+                                    docker image push eon01/nginx localhost:5000/myadmin/nginx</p></td>
+        </tbody>
+    </table>
+    
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
 
     1) DOCKER FILES
