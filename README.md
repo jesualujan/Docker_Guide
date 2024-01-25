@@ -1,11 +1,17 @@
 
 ## 🌐 Redes Sociales | Elaborado por: Jesua Luján
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100093507976508&mibextid=gik2fB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesua-hadai-alderete-luj%C3%A1n-a2325a121/) 
-# Introducción a ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+# ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) En Español
 
 # Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, sistemas operativos, código, testing, bases de datos y tiempo de ejecución.
 # La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones de software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo,
 # facilitando así también los despliegues.
+
+# Como instalar docker:
+ Command	Meaning	Syntax
+For Windows	This command helps you to install Docker on windows.	https://download.docker.com/win/stable/InstallDocker.msi
+For Linux	This command helps you to install Docker on Linux.	curl -sSL https://get.docker.com/ | sh
+For mac	This command helps you to install Docker on mac os.	https://download.docker.com/mac/stable/Docker.dmg
 
 DOCKER SE COMPONE EN 3 PARTES PRINCIPALES:
 
