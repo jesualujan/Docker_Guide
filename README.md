@@ -18,9 +18,11 @@
         <tbody>
             <tr>
                 <td>Para Windows</td>
+                <td><p>este comando te ayudará a instalar docker en Windows</p></td>
                 <td><p>https://download.docker.com/win/stable/InstallDocker.msi</p></td>
             <tr>
                 <td>Para Linux</td>
+                <td><p>este comando te ayudará a instalar docker en Linux</p></td>
                 <td><p>curl -sSL https://get.docker.com/ | sh</p></td>
             <tr>
                 <td>Para Mac</td>
